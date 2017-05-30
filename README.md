@@ -6,6 +6,7 @@ It is based on the one used by Sun, but with some modifications to make it less 
 Changes:
 * No check for magic numbers
 * Private fields and methods don't require documenting
+* Max line length upped to 120 characters
 
 ## Using in IntelliJ IDEA
 
