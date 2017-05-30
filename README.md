@@ -1,4 +1,4 @@
-# checkstyle_configuration
+# Checkstyle Configuration
 A Checkstyle configuration file for use with any Java code we write.
 
 It is based on the one used by Sun, but with some modifications to make it less strict.
