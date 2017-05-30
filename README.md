@@ -7,8 +7,10 @@ Changes:
 * No check for magic numbers
 * Private fields and methods don't require documenting
 
-## Using in IntelliJ
+## Using in IntelliJ IDEA
 
-First it is necessary to install the Checkstyle plug-in (Checkstyle-IDEA) via `Settings->Plugins` if it is not in the list then click `Browse repositories` and search there.
+First it is necessary to install the Checkstyle plug-in (Checkstyle-IDEA) via `Settings->Plugins` if it is not in the list then click `Browse repositories` and search there. Once installed, the plug-in should appear under `Other Settings->Checkstyle`. 
 
-Once installed, the plug-in should appear under `Other Settings`. From there add a new configuration file and point it at a local copy of the file from this repository or point it directly at the raw Github document (`https://raw.githubusercontent.com/ScreamingUdder/checkstyle_configuration/master/check_style.xml`)
+There are two ways of setting the configuration file:
+* Clone this repository and then add a new configuration in `Other Settings->Checkstyle` and point it at the local copy of the file from this repository
+* Add a new configuration in `Other Settings->Checkstyle` and point it directly at the raw Github document (`https://raw.githubusercontent.com/ScreamingUdder/checkstyle_configuration/master/check_style.xml`)
