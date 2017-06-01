@@ -7,7 +7,7 @@
 
   This Checkstyle configuration mostly follows the Sun coding conventions from but has a few modifications to make it less strict.
 
-  
+
 -->
 
 <module name="Checker">
@@ -130,7 +130,9 @@
         <module name="AvoidInlineConditionals"/>
         <module name="EmptyStatement"/>
         <module name="EqualsHashCode"/>
-        <module name="HiddenField"/>
+        <module name="HiddenField">
+            <property name="ignoreSetter" value="true">
+        </module>
         <module name="IllegalInstantiation"/>
         <module name="InnerAssignment"/>
         <!-- <module name="MagicNumber"/> -->
